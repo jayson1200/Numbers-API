@@ -1,0 +1,14 @@
+﻿<Window x:Class="NumbersApi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NumbersApi"
+        mc:Ignorable="d" Loaded="Window_Loaded"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Cursor="">
+        <TextBox x:Name="FactTxtBox" Height="83" Margin="156,161,157.6,176" TextWrapping="Wrap" Width="480" FontSize="14" FontWeight="Bold" FontFamily="Agency FB" TextAlignment="Center" ScrollViewer.CanContentScroll="True" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button x:Name="button" Content="GetNumFact" Margin="268,10,269.6,377" Width="256" Height="33" Click="button_Click" BorderBrush="#FF2B2727" Foreground="#FFA99292" Background="#FFAD3F3F" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
