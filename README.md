@@ -1,2 +1,2 @@
 # Numbers-API
-Get a random number fact
+Gets a random number fact
